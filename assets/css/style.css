@@ -270,6 +270,7 @@ h6 {
   background: url("../img/bgimg1.png") top right no-repeat;
   background-size: cover;
   position: relative;
+
 }
 
 @media (min-width: 992px) {
@@ -396,27 +397,28 @@ section {
 --------------------------------------------------------------*/
 .about .content h3 {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 35px;
   color: #414c55;
 }
 
 .about .content ul {
   list-style: none;
   padding: 0;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: larger;
+  font-size: 16px;
   margin-left: 1em;
+  font-family: "Poppins", sans-serif;
 }
 
 .about .content ul li {
   margin-bottom: 20px;
   display: flex;
+  font-size: 15px;
 
   
 }
 
 .about .content ul strong {
-  margin-right: 10px;
+  margin-right: 12px;
 }
 
 .about .content ul i {
@@ -424,6 +426,7 @@ section {
   margin-right: 5px;
   color: #414c55;
   line-height: 0;
+  font-size: medium;
 }
 
 .about .content p:last-child {
@@ -432,12 +435,12 @@ section {
 
 .about .about-item{
   text-emphasis: none;
-  font-size: 20px;
+  font-size: 18px;
   color: #000000;
   margin-right: 5px;
   position: relative;
   text-align: justify;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: "Poppins", sans-serif;
   font-weight: lighter;
   
 }
@@ -758,6 +761,7 @@ section {
 
 .portfolio-details .portfolio-description p {
   padding: 0;
+  text-align: justify;
 }
 
 /*--------------------------------------------------------------
@@ -813,6 +817,7 @@ section {
 
 .portfolio-details2 .portfolio-description {
   padding-top: 30px;
+  text-align: justify;
 }
 
 .portfolio-details2 .portfolio-description h2 {
@@ -823,6 +828,7 @@ section {
 
 .portfolio-details2 .portfolio-description p {
   padding: 0;
+  text-align: justify;
 }
 
 /*--------------------------------------------------------------
